@@ -6,12 +6,12 @@
 </head>
 <body>
 <script>
-    let  zipcode ='03201 - 2150';
+    let  zipcode ='03201-2150';
     let regexp = /^[0-9]{5}(?:-[0-9]{4})?$/;
     let b = regexp.test(zipcode);
 
-    function is_usZipCode(str) {
-        if (b = false){
+    function is_usZipCode() {
+        if (b){
             alert('TRUE');
         } else {
             alert('fale');
